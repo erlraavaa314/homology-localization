@@ -1,5 +1,5 @@
-from algorithms.error_file import MemoryLimitViolation
-from algorithms.tools.bit_magic import MyUniverse, Translator
+from homology_localization.algorithms.error_file import MemoryLimitViolation
+from homology_localization.algorithms.tools.bit_magic import MyUniverse, Translator
 import math
 
 def hom_loc_cg(cc, v_set, give_status, memory_limit):

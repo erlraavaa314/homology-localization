@@ -2,11 +2,11 @@
 # Weights: A dictionary with d-simplices (represented as frozensets) as keys and weights of simplex as value
 import networkx
 
-from algorithms.hom_loc_cg import hom_loc_cg
-from algorithms.hom_loc_cg_rep import hom_loc_cg_rep
-from algorithms.hom_loc_sg import hom_loc_sg
-from algorithms.hom_loc_sg_rep import hom_loc_sg_rep
-from algorithms.tools.chain_complex import ChainComplex
+from homology_localization.algorithms.hom_loc_cg import hom_loc_cg
+from homology_localization.algorithms.hom_loc_cg_rep import hom_loc_cg_rep
+from homology_localization.algorithms.hom_loc_sg import hom_loc_sg
+from homology_localization.algorithms.hom_loc_sg_rep import hom_loc_sg_rep
+from homology_localization.algorithms.tools.chain_complex import ChainComplex
 from numpy.random import RandomState
 
 
